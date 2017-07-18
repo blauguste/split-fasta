@@ -1,5 +1,5 @@
 import sys
-from Bio import SeqIO, SeqRecord
+from Bio import SeqIO
 
 def split_fasta(multifasta):
     with open(multifasta, 'r') as infile:
