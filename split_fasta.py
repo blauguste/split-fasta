@@ -14,5 +14,5 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
          split_fasta(sys.argv[1])
     else:
-         print("Usage: split_fasta.py multifasta.fa")
+         print("Usage: split_fasta.py multifasta.fa blargh")
          sys.exit(0)
